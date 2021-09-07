@@ -1,6 +1,6 @@
 import React from 'react';
 import { MemoryRouter as Router, Switch, Route } from 'react-router-dom';
-import icon from '../../assets/icon.svg';
+import logo from '../../assets/logo.png';
 import './App.global.css';
 
 function checkPlatform() {
@@ -13,7 +13,7 @@ const Hello = () => {
   return (
     <div>
       <div className="Hello">
-        <img width="200px" alt="icon" src={icon} />
+        <img width="200px" alt="icon" src={logo} />
       </div>
       <h1>Virtual Neuro Machine</h1>
       This application will help you get started with VNM!
