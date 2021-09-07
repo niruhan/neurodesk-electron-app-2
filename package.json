@@ -263,6 +263,9 @@
   "collective": {
     "url": "https://opencollective.com/electron-react-boilerplate-594"
   },
+  "browser":{
+    "child_process": false
+  },
   "browserslist": [],
   "prettier": {
     "overrides": [
