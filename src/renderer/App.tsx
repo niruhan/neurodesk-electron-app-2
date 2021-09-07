@@ -22,6 +22,7 @@ function checkPlatform() {
 
 function runVnmFirst() {
   return function () {
+
     let runVnmFirstCommand = '';
     if (platform === 'linux') {
       runVnmFirstCommand =
